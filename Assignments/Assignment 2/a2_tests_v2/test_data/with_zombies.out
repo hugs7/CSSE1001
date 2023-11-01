@@ -1,0 +1,49 @@
+#######
+#   Z #
+# P   #
+#   Z #
+#     #
+#    H#
+#######
+Enter your next action: S
+#######
+#    Z#
+#   Z #
+# P   #
+#     #
+#    H#
+#######
+Enter your next action: S
+#######
+#   Z #
+#    Z#
+#     #
+# P   #
+#    H#
+#######
+Enter your next action: S
+#######
+#  Z  #
+#     #
+#    Z#
+#     #
+# P  H#
+#######
+Enter your next action: D
+#######
+# Z   #
+#     #
+#     #
+#    Z#
+#  P H#
+#######
+Enter your next action: D
+#######
+#     #
+# Z   #
+#     #
+#   Z #
+#   PH#
+#######
+Enter your next action: D
+You win!

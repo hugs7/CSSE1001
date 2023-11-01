@@ -1,0 +1,107 @@
+#######
+#    T#
+# P   #
+#G  Z #
+#     #
+#C   H#
+#######
+Enter your next action: S
+#######
+#   T #
+#   Z #
+#GP   #
+#     #
+#C   H#
+#######
+Enter your next action: S
+#######
+#  T  #
+#    Z#
+#G    #
+# P   #
+#C   H#
+#######
+Enter your next action: S
+#######
+# T   #
+#     #
+#G   Z#
+#     #
+#CP  H#
+#######
+Enter your next action: A
+#######
+#T    #
+#     #
+#G  Z #
+#     #
+#P   H#
+#######
+The player is currently holding:
+Crossbow(4)
+Enter your next action: D
+#######
+#     #
+#T    #
+#G   Z#
+#     #
+# P  H#
+#######
+The player is currently holding:
+Crossbow(3)
+Enter your next action: W
+#######
+#     #
+# T   #
+#G  Z #
+# P   #
+#    H#
+#######
+The player is currently holding:
+Crossbow(2)
+Enter your next action: F
+Direction to fire: W
+#######
+#     #
+#     #
+#G    #
+# P Z #
+#    H#
+#######
+The player is currently holding:
+Crossbow(1)
+Enter your next action: F
+Direction to fire: D
+#######
+#     #
+#     #
+#G    #
+# P   #
+#    H#
+#######
+Enter your next action: D
+#######
+#     #
+#     #
+#G    #
+#  P  #
+#    H#
+#######
+Enter your next action: D
+#######
+#     #
+#     #
+#G    #
+#   P #
+#    H#
+#######
+Enter your next action: D
+#######
+#     #
+#     #
+#G    #
+#    P#
+#    H#
+#######
+Enter your next action: S
+You win!

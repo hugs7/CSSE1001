@@ -1,0 +1,214 @@
+
+Welcome to the big brain sliding puzzle game.
+This game is based on the real life sliding puzzle: https://en.wikipedia.org/wiki/Sliding_puzzle
+Try the game online here: https://www.helpfulgames.com/subjects/brain-training/sliding-puzzle.html
+
+
+Choose your difficulty. The larger the puzzle, the harder it is to solve.
+How big do you want the puzzle to be? 2
+Solution:
++---+---+
+| a | c |
++---+---+
+| f | c |
++---+---+
+
+Current position:
++---+---+
+| c | f |
++---+---+
+| a |   |
++---+---+
+
+Please input a direction (enter "H" for instructions): R
+'R' is not a possible move here. Please try again.
+
+Solution:
++---+---+
+| a | c |
++---+---+
+| f | c |
++---+---+
+
+Current position:
++---+---+
+| c | f |
++---+---+
+| a |   |
++---+---+
+
+Please input a direction (enter "H" for instructions): C
+That's not a valid input, try again.
+
+Solution:
++---+---+
+| a | c |
++---+---+
+| f | c |
++---+---+
+
+Current position:
++---+---+
+| c | f |
++---+---+
+| a |   |
++---+---+
+
+Please input a direction (enter "H" for instructions): H
+
+Options:
+    H:          Display this help message
+    GU:         Stop the current game
+    [U|D|L|R]:  Move the empty cell in the up/down/left/right direction, 
+                respectively.
+
+
+Solution:
++---+---+
+| a | c |
++---+---+
+| f | c |
++---+---+
+
+Current position:
++---+---+
+| c | f |
++---+---+
+| a |   |
++---+---+
+
+Please input a direction (enter "H" for instructions): U
+Solution:
++---+---+
+| a | c |
++---+---+
+| f | c |
++---+---+
+
+Current position:
++---+---+
+| c |   |
++---+---+
+| a | f |
++---+---+
+
+Please input a direction (enter "H" for instructions): L
+Solution:
++---+---+
+| a | c |
++---+---+
+| f | c |
++---+---+
+
+Current position:
++---+---+
+|   | c |
++---+---+
+| a | f |
++---+---+
+
+Please input a direction (enter "H" for instructions): D
+Solution:
++---+---+
+| a | c |
++---+---+
+| f | c |
++---+---+
+
+Current position:
++---+---+
+| a | c |
++---+---+
+|   | f |
++---+---+
+
+Please input a direction (enter "H" for instructions): R
+Solution:
++---+---+
+| a | c |
++---+---+
+| f | c |
++---+---+
+
+Current position:
++---+---+
+| a | c |
++---+---+
+| f |   |
++---+---+
+
+Congratulations, you've won the game. Here's your candy:
+              ___      .-""-.      ___
+              \  "-.  /      \  .-"  /
+               > -=.\/        \/.=- <
+               > -='\        /\'=- <
+              /__.-'  \      /  '-.__\
+                       '-..-'
+    
+    
+Do you want to play again? [Y/n] y
+
+Choose your difficulty. The larger the puzzle, the harder it is to solve.
+How big do you want the puzzle to be? 3
+Solution:
++---+---+---+
+| r | o | d |
++---+---+---+
+| s | e | o |
++---+---+---+
+| p | a | r |
++---+---+---+
+
+Current position:
++---+---+---+
+| a | r | s |
++---+---+---+
+| p | o | d |
++---+---+---+
+| o | e |   |
++---+---+---+
+
+Please input a direction (enter "H" for instructions): U
+Solution:
++---+---+---+
+| r | o | d |
++---+---+---+
+| s | e | o |
++---+---+---+
+| p | a | r |
++---+---+---+
+
+Current position:
++---+---+---+
+| a | r | s |
++---+---+---+
+| p | o |   |
++---+---+---+
+| o | e | d |
++---+---+---+
+
+Please input a direction (enter "H" for instructions): D
+Solution:
++---+---+---+
+| r | o | d |
++---+---+---+
+| s | e | o |
++---+---+---+
+| p | a | r |
++---+---+---+
+
+Current position:
++---+---+---+
+| a | r | s |
++---+---+---+
+| p | o | d |
++---+---+---+
+| o | e |   |
++---+---+---+
+
+Please input a direction (enter "H" for instructions): GU
+Aww, too bad. Better luck next time.
+
+Do you want to play again? [Y/n] n
+Bye.
+

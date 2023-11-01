@@ -1,0 +1,77 @@
+================================================================================
+FAIL: TestTextInterfaceTask2 1.  Test play map with zombies
+--------------------------------------------------------------------------------
+    Traceback (most recent call last):
+      File "sample_test_a2.py", line 1179, in test_play_map_with_zombies
+        self.assertPlay("with_zombies.in", "with_zombies.out")
+      File "sample_test_a2.py", line 771, in assertPlay
+        self.assertMultiLineEqual(stdio.stdinout, expected)
+    AssertionError: '####[103 chars]n#     #\n# P   #\n#   Z #\n#    H#\n#######\n[393 chars]n!\n' != '####[103 chars]n#   Z #\n# P   #\n#     #\n#    H#\n#######\n[393 chars]n!\n'
+      #######
+      #   Z #
+      # P   #
+      #   Z #
+      #     #
+      #    H#
+      #######
+      Enter your next action: S
+what I have
+      #######
+      #    Z#
+      #     #
+    - # P   #
+    - #   Z #
+      #    H#
+      #######
+
+what it wants me to have
+      #######
+      #    Z#
+    + #   Z #
+    + # P   #
+      #     #
+      #    H#
+      #######
+
+So the zombie moved down instead of up.
+
+      Enter your next action: S
+      #######
+      #   Z #
+    + #    Z#
+      #     #
+    - #   Z #
+      # P   #
+      #    H#
+      #######
+      Enter your next action: S
+      #######
+    + #  Z  #
+    + #     #
+      #    Z#
+      #     #
+    - #     #
+    - #   Z #
+      # P  H#
+      #######
+      Enter your next action: D
+      #######
+    + # Z   #
+      #     #
+    - #    Z#
+      #     #
+      #    Z#
+      #  P H#
+      #######
+      Enter your next action: D
+      #######
+      #     #
+    + # Z   #
+      #     #
+    - #    Z#
+      #   Z #
+      #   PH#
+      #######
+      Enter your next action: D
+      You win!
+

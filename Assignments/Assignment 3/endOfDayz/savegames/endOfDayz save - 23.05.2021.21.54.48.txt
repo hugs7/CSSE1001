@@ -1,0 +1,3 @@
+{Position(1, 2): 'Crossbow()', Position(5, 6): Hospital(), Position(8, 8): 'Garlic()', Position(3, 1): HoldingPlayer(), Position(6, 2): Zombie(), Position(7, 6): Zombie(), Position(3, 3): TrackingZombie()}
+10
+[Crossbow(5)]

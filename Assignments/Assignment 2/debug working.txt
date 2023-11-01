@@ -1,0 +1,222 @@
+self._position1 = self.a2_support.Position(1,2) 		line 370 of sample_test_a2.py
+
+Logic of test
+
+in setUp
+Zombie gets created to self._zombie
+zombie gets added to grid with .add_entity(Position(1,2), self._zombie)
+
+Then in test_step(self):
+	for every expected position:
+		step the zombie
+
+
+
+
+---------
+failed
+/------------------------------------------------------------------------------\
+|                              Summary of Results                              |
+\------------------------------------------------------------------------------/
+TestDesign: 5/5
+    + 1.  Test no prints on import
+    + 2.  Test all classes and functions have documentation strings
+    + 3.  Test all specified classes and functions defined correctly for task 1.
+    + 4.  Test all specified classes and functions defined correctly for task 2.
+    + 5.  Test all specified classes and functions defined correctly for task 3.
+TestEntity: 3/3
+    + 1.  Test Entity.step returns None
+    + 2.  Test display raises NotImplementedError
+    + 3.  Test Entity.repr returns correct representation
+TestPlayer: 3/3
+    + 1.  Test Player.step returns None
+    + 2.  Test display returns "P"
+    + 3.  Test Player.repr returns correct representation
+TestHospital: 3/3
+    + 1.  Test Hospital.step returns None
+    + 2.  Test display returns "H"
+    + 3.  Test Hospital.repr returns correct representation
+TestGridSample: 22/22
+    + 1.  Test Grid.get_size
+    + 2.  Test in bounds with valid position
+    + 3.  Test in bounds with negative x coordinate
+    + 4.  Test in bounds with x coordinate greater than grid size
+    + 5.  Test in bounds with y coordinate greater than grid size
+    + 6.  Test add entity with new entity
+    + 7.  Test add entity overwrite existing entity
+    + 8.  Test remove entity
+    + 9.  Test get entity at empty position
+    + 10. Test get mapping
+    + 11. Test get mapping with empty grid
+    + 12. Test get mapping after replacing entity at a position
+    + 13. Test get mapping after moving an entity
+    + 14. Test get entities
+    + 15. Test get entities with empty grid
+    + 16. Test get entities after replacing entity at a position
+    + 17. Test moving an entity
+    + 18. Test attempting to move an entity from an invalid start position
+    + 19. Test moving entity and replacing the entity at the end position
+    + 20. Test find player in grid
+    + 21. Test find player, after moving player
+    + 22. Test serialize
+TestMapLoader: 1/1
+    + 1.  Test abstract create_entity method
+TestBasicMapLoader: 5/5
+    + 1.  Test creating a player with a basic map loader
+    + 2.  Test creating a hospital with a basic map loader
+    + 3.  Test attempting to create a zombie with a basic map loader in task 1
+    + 4.  Test attempting to create an invalid entity with a basic map loader
+    + 5.  Test loading a basic map
+TestGameSample: 10/10
+    + 1.  Test get grid
+    + 2.  Test get player in game
+    + 3.  Test calling step returns None
+    + 4.  Test get_steps
+    + 5.  Test moving the player
+    + 6.  Test moving the player with a negative offset
+    + 7.  Test converting 'W' direction to offset
+    + 8.  Test converting lowercase directions to offset
+    + 9.  Test has won returning True
+    + 10. Test has won returning False
+TestTextInterface: 9/9
+    + 1.  Test drawing a simple game
+    + 2.  Test handling action of player moving up and positioning player correctly
+    + 3.  Test handling action of player moving up and displaying player in correct position
+    + 4.  Test handling multiple valid actions
+    + 5.  Test handling invalid command, ensuring player did not move
+    + 6.  Test handling invalid command, ensuring player displays in same position
+    + 7.  Test handling invalid move left action when at left edge of grid
+    + 8.  Test play with map as basic.txt
+    + 9.  Test play with map as basic.txt with invalid commands
+TestVulnerablePlayer: 3/3
+    + 1.  Test is_infected returns False after instantiating VulnerablePlayer
+    + 2.  Test infecting player
+    + 3.  Test vulnerable player display
+TestZombie: 1/3
+    + 1.  Test Zombie display
+    - 2.  Test moving Zombie using step                                                 good now
+    - 3.  Test calling step results in player infected       				  good now
+TestSimpleGamePolymorphismTask2: 1/3
+    + 1.  Test move vulnerable player to win position
+    ? 2.  Test calling step moves the zombie in the correct directions	       good now   
+    ? 3.  Test calling step causes zombie to infect player    				  good now
+TestIntermediateGameSample: 10/13
+    + 1.  Test get grid
+    + 2.  Test get player in game
+    + 3.  Test calling step returns None
+    + 4.  Test get_steps
+    + 5.  Test moving the player
+    + 6.  Test moving the player with a negative offset
+    + 7.  Test converting 'W' direction to offset
+    + 8.  Test converting lowercase directions to offset
+    + 9.  Test has won returning True
+    + 10. Test has won returning False
+    ? 11. Test calling step moves the zombie in the correct directions		 good now
+    ? 12. Test calling step causes zombie to infect player			good now
+    ? 13. Test calling step with two zombies					 good now
+TestIntermediateMapLoader: 5/5
+    + 1.  Test creating a vulnerable player
+    + 2.  Test creating a hospital
+    + 3.  Test creating a zombie
+    + 4.  Test attempting to create an invalid entity with an intermediate map loader
+    + 5.  Test loading a basic map with an intermediate map loader
+TestTextInterfaceTask2: 0/2
+    - 1.  Test play map with zombies				need to fix 		###############
+    - 2.  Test play and lose game with zombie			need to fix 		###############
+TestTrackingZombie: 5/5
+    + 1.  Test TrackingZombie display
+    + 2.  Test move closer to player from east side
+    + 3.  Test move closer to player from west side
+    + 4.  Test move closer to player from north side
+    + 5.  Test move closer to player from south side
+TestGarlic: 5/5
+    + 1.  Test display
+    + 2.  Test get durability
+    + 3.  Test get lifetime after instantiating
+    + 4.  Test holding decreases lifetime
+    + 5.  Test step does nothing
+TestCrossbow: 5/5
+    + 1.  Test display
+    + 2.  Test get durability
+    + 3.  Test get lifetime after instantiating
+    + 4.  Test holding decreases lifetime
+    + 5.  Test step does nothing
+TestInventory: 6/6
+    + 1.  Test get items returning an empty list initially
+    + 2.  Test add one item
+    + 3.  Test add two different items
+    + 4.  Test inventory contains nothing initially
+    + 5.  Test inventory contains an item after adding that item
+    + 6.  Test step decreases inventory item's lifetime
+TestHoldingPlayer: 6/6
+    + 1.  Test holding player display
+    + 2.  Test is_infected returns False after instantiating player
+    + 3.  Test infecting player
+    + 4.  Test holding player empty inventory
+    + 5.  Test calling step triggers the step event of the inventory
+    + 6.  Test that a player holding garlic is not infected
+TestSimpleGamePolymorphismTask3: 0/1
+    - 1.  Test calling step with task 3 entities			need to fix 		need to fix 		###############
+TestIntermediateGamePolymorphismTask3: 0/1
+    - 1.  Test calling step with task 3 entities			need to fix 		###############
+TestAdvancedGameSample: 14/15
+    + 1.  Test get grid
+    + 2.  Test get player in game
+    + 3.  Test calling step returns None
+    + 4.  Test get_steps
+    + 5.  Test moving the player
+    + 6.  Test moving the player with a negative offset
+    + 7.  Test converting 'W' direction to offset
+    + 8.  Test converting lowercase directions to offset
+    + 9.  Test has won returning True
+    + 10. Test has won returning False
+    + 11. Test has lost
+    ? 12. Test calling step moves the zombie in the correct directions				need to fix 		###############
+    + 13. Test calling step causes zombie to infect player
+    + 14. Test calling step causes tracking zombie to infect player
+    + 15. Test move player and pick up an item
+TestAdvancedMapLoader: 8/8
+    + 1.  Test creating a holding player
+    + 2.  Test creating a hospital
+    + 3.  Test creating a zombie
+    + 4.  Test creating a garlic
+    + 5.  Test creating a crossbow
+    + 6.  Test creating a tracking zombie
+    + 7.  Test attempting to create an invalid entity with an advanced map loader
+    + 8.  Test loading a basic map with an advanced map loader
+TestAdvancedTextInterface: 5/9
+    + 1.  Test draw with task 3 items
+    + 2.  Test draw player holding items
+    + 3.  Test handle action picking up item
+    + 4.  Test handle fire action killing zombie
+    + 5.  Test handle fire action no zombie case
+    - 6.  Test game where player picks up garlic				need to fix 		###############
+    - 7.  Test game where player picks up crossbow				need to fix 		###############
+    - 8.  Test game where player shoots zombie using crossbow			need to fix 		###############
+    - 9.  Test game where player shoots and misses				need to fix 		###############
+TestNoPrint: 0/1
+    - check for no unexpected prints		good now This is easily fixed
+
+
+------------
+
+
+
+new stuff
+
+
+TestTextInterfaceTask2: 0/2
+    - 1.  Test play map with zombies
+    - 2.  Test play and lose game with zombie
+TestSimpleGamePolymorphismTask3: 0/1
+    - 1.  Test calling step with task 3 entities
+TestIntermediateGamePolymorphismTask3: 0/1
+    - 1.  Test calling step with task 3 entities
+TestAdvancedGameSample: 13/15
+    - 12. Test calling step moves the zombie in the correct directions
+    - 13. Test calling step causes zombie to infect player
+TestAdvancedTextInterface: 5/9
+    - 6.  Test game where player picks up garlic
+    - 7.  Test game where player picks up crossbow
+    - 8.  Test game where player shoots zombie using crossbow
+    - 9.  Test game where player shoots and misses

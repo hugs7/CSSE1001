@@ -1,0 +1,115 @@
+#######
+#    T#
+# P   #
+#G  Z #
+#     #
+#C   H#
+#######
+Enter your next action: S
+#######
+#   T #
+#   Z #
+#GP   #
+#     #
+#C   H#
+#######
+Enter your next action: A
+#######
+#  T  #
+#    Z#
+#P    #
+#     #
+#C   H#
+#######
+The player is currently holding:
+Garlic(9)
+Enter your next action: W
+#######
+# T   #
+#P    #
+#    Z#
+#     #
+#C   H#
+#######
+The player is currently holding:
+Garlic(8)
+Enter your next action: W
+#######
+#PT   #
+#     #
+#   Z #
+#     #
+#C   H#
+#######
+The player is currently holding:
+Garlic(7)
+Enter your next action: S
+#######
+#T    #
+#P    #
+#    Z#
+#     #
+#C   H#
+#######
+The player is currently holding:
+Garlic(6)
+Enter your next action: S
+#######
+#     #
+#T    #
+#P  Z #
+#     #
+#C   H#
+#######
+The player is currently holding:
+Garlic(5)
+Enter your next action: S
+#######
+#     #
+#     #
+#T    #
+#P  Z #
+#C   H#
+#######
+The player is currently holding:
+Garlic(4)
+Enter your next action: D
+#######
+#     #
+#     #
+#     #
+#TPZ  #
+#C   H#
+#######
+The player is currently holding:
+Garlic(3)
+Enter your next action: S
+#######
+#     #
+#     #
+#     #
+# T   #
+#CPZ H#
+#######
+The player is currently holding:
+Garlic(2)
+Enter your next action: D
+#######
+#     #
+#     #
+#     #
+#     #
+#CTP H#
+#######
+The player is currently holding:
+Garlic(1)
+Enter your next action: D
+#######
+#     #
+#     #
+#     #
+#     #
+#C TPH#
+#######
+Enter your next action: D
+You win!

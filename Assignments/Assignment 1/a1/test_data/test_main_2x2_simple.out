@@ -1,0 +1,94 @@
+
+Welcome to the big brain sliding puzzle game.
+This game is based on the real life sliding puzzle: https://en.wikipedia.org/wiki/Sliding_puzzle
+Try the game online here: https://www.helpfulgames.com/subjects/brain-training/sliding-puzzle.html
+
+
+Choose your difficulty. The larger the puzzle, the harder it is to solve.
+How big do you want the puzzle to be? 2
+Solution:
++---+---+
+| a | c |
++---+---+
+| f | c |
++---+---+
+
+Current position:
++---+---+
+| c | f |
++---+---+
+| a |   |
++---+---+
+
+Please input a direction (enter "H" for instructions): U
+Solution:
++---+---+
+| a | c |
++---+---+
+| f | c |
++---+---+
+
+Current position:
++---+---+
+| c |   |
++---+---+
+| a | f |
++---+---+
+
+Please input a direction (enter "H" for instructions): L
+Solution:
++---+---+
+| a | c |
++---+---+
+| f | c |
++---+---+
+
+Current position:
++---+---+
+|   | c |
++---+---+
+| a | f |
++---+---+
+
+Please input a direction (enter "H" for instructions): D
+Solution:
++---+---+
+| a | c |
++---+---+
+| f | c |
++---+---+
+
+Current position:
++---+---+
+| a | c |
++---+---+
+|   | f |
++---+---+
+
+Please input a direction (enter "H" for instructions): R
+Solution:
++---+---+
+| a | c |
++---+---+
+| f | c |
++---+---+
+
+Current position:
++---+---+
+| a | c |
++---+---+
+| f |   |
++---+---+
+
+Congratulations, you've won the game. Here's your candy:
+              ___      .-""-.      ___
+              \  "-.  /      \  .-"  /
+               > -=.\/        \/.=- <
+               > -='\        /\'=- <
+              /__.-'  \      /  '-.__\
+                       '-..-'
+    
+    
+Do you want to play again? [Y/n] n
+Bye.
+

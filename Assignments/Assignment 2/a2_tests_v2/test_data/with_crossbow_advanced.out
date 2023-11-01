@@ -1,0 +1,81 @@
+#######
+#    T#
+# P   #
+#G  Z #
+#     #
+#C   H#
+#######
+Enter your next action: A
+#######
+#   T #
+#P  Z #
+#G    #
+#     #
+#C   H#
+#######
+Enter your next action: S
+#######
+#  T  #
+#    Z#
+#P    #
+#     #
+#C   H#
+#######
+The player is currently holding:
+Garlic(9)
+Enter your next action: S
+#######
+# T   #
+#     #
+#    Z#
+#P    #
+#C   H#
+#######
+The player is currently holding:
+Garlic(8)
+Enter your next action: S
+#######
+#T    #
+#     #
+#   Z #
+#     #
+#P   H#
+#######
+The player is currently holding:
+Garlic(7)
+Crossbow(4)
+Enter your next action: D
+#######
+#     #
+#T    #
+#    Z#
+#     #
+# P  H#
+#######
+The player is currently holding:
+Garlic(6)
+Crossbow(3)
+Enter your next action: D
+#######
+#     #
+#     #
+#T  Z #
+#     #
+#  P H#
+#######
+The player is currently holding:
+Garlic(5)
+Crossbow(2)
+Enter your next action: D
+#######
+#     #
+#     #
+#     #
+#T  Z #
+#   PH#
+#######
+The player is currently holding:
+Garlic(4)
+Crossbow(1)
+Enter your next action: D
+You win!

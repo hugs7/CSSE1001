@@ -1,0 +1,33 @@
+#######
+#   Z #
+# P   #
+#   Z #
+# Z   #
+#    H#
+#######
+Enter your next action: S
+#######
+#    Z#
+#   Z #
+# P   #
+#  Z  #
+#    H#
+#######
+Enter your next action: D
+#######
+#     #
+#  Z Z#
+#  P  #
+# Z   #
+#    H#
+#######
+Enter your next action: S
+#######
+#     #
+#   Z #
+#  Z  #
+#  P  #
+# Z  H#
+#######
+Enter your next action: S
+You lose!
